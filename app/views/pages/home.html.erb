@@ -1,2 +1,30 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+  <div class="page-wrapper">
+    <div class="banner-solutions">
+      <div class="row cards-sign-up" data-aos="zoom-out-up">
+
+        <div class="col-6 ">
+          <div class="card-sign-up">
+            <%= link_to new_user_registration_path do %>
+
+              <div class="card-sign-up-text">
+                <p>Register as a Shelter</p>
+                <h2>Sign Up</h2>
+              </div>
+            <% end %>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card-sign-up">
+            <%= link_to new_user_registration_path do %>
+              <div class="card-sign-up-text">
+                <p>Register as a Provider</p>
+                <h2>Sign Up </h2>
+              </div>
+            <% end %>
+          </div>
+        <div>
+
+      </div>
+    </div>
+  </div>
